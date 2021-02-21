@@ -1,17 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+// import { CallbackHook } from "./components/06-memos/CallbackHook";
+// import { Padre } from "./components/07-tarea-memo/Padre";
+import { TodoApp } from "./components/08-useReducer/TodoApp";
+// import { MemoHook } from "./components/06-memos/MemoHook";
+// import { CounterApp } from "./components/01-UseState/CounterApp";
+// import { CounterWithCustomHooks } from "./components/01-UseState/CounterWithCustomHooks";
+// import { SimpleForm } from "./components/02-useEffect/simpleForm";
+// import { SimpleFormWithCustomHook } from "./components/02-useEffect/SimpleFormWithCustomHook";
+// import { MultipleCustomHooks } from "./components/03-examples/MultipleCustomHooks";
+// import { FocusScreen } from "./components/04-useRef/FocusScreen";
+// import { RealExampleUseRef } from "./components/04-useRef/RealExampleUseRef";
+// import { UseLayoutEffect } from "./components/05-useLayoutEffect/Layout";
+// import { Memorize } from "./components/06-memos/Memorize";
+// import { HookApp } from "./HookApp";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+ReactDOM.render(<TodoApp />, document.getElementById("root"));
