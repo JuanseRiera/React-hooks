@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del modulo hookapp Debe cargar el componente correctamente 1`] = `
+<Fragment>
+  <h1>
+    Hola mundo
+  </h1>
+</Fragment>
+`;

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del componente multiple custom hooks Deberia cargar correctamente 1`] = `
+<Fragment>
+  <h1>
+    Breaking Bad quotes
+  </h1>
+  <hr />
+  <div
+    className="mt-5 alert alert-info"
+  >
+    Cargando información...
+  </div>
+</Fragment>
+`;

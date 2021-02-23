@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas del todoadd Deberia de cargar correctamente 1`] = `
+<Fragment>
+  <form
+    className="text-end"
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="form-control"
+      name="todoInput"
+      onChange={[Function]}
+      placeholder="Ingrese su tarea por hacer..."
+      type="text"
+      value=""
+    />
+  </form>
+</Fragment>
+`;

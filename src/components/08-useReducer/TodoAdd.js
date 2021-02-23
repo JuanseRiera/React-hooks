@@ -9,6 +9,9 @@ export const TodoAdd = ({ guardarTarea }) => {
 
   const submit = (e) => {
     e.preventDefault();
+    if (formState.todoInput.trim().length <= 1) {
+      return;
+    }
     guardarTarea({
       id: Math.round(Math.random() * 100000),
       todo: formState.todoInput,

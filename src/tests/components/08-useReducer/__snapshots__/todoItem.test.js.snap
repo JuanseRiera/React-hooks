@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prubas del componente todoItem Deberia de cargar correctamente 1`] = `
+<Fragment>
+  <div
+    className="card mb-3"
+  >
+    <div
+      className="card-body row"
+    >
+      <div
+        className="col-12 col-sm-8 my-auto"
+      >
+        <h6
+          className={null}
+          onClick={[Function]}
+        />
+      </div>
+      <div
+        className="col-12 col-sm-4 text-end"
+      >
+        <button
+          className="btn btn-danger ms-2"
+          onClick={[Function]}
+        >
+          Borrar
+        </button>
+      </div>
+    </div>
+  </div>
+</Fragment>
+`;

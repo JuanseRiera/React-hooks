@@ -1,7 +1,7 @@
 import { useState } from "react";
 import PropTypes from "prop-types";
 
-export const useCounter = (initialValue) => {
+export const useCounter = (initialValue = 10) => {
   const [counter, setcounter] = useState(initialValue);
 
   const incrementar = (factor) => {

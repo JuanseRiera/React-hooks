@@ -30,9 +30,14 @@ export const useFetch = (url) => {
               data: respuesta,
               error: null,
             });
-          } else {
-            console.log("No se llamo el setstate");
           }
+        })
+        .catch(() => {
+          setstate({
+            loading: false,
+            data: null,
+            error: "error",
+          });
         });
     } else {
       setstate({

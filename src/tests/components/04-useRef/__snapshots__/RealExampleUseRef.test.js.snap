@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prubas del componente <RealExampleUseRef/> deberia cargar el componente correctamente 1`] = `
+<Fragment>
+  <h1>
+    Real example use ref
+  </h1>
+  <hr />
+  <div
+    className="mt-5"
+  >
+    <button
+      className="btn btn-info"
+      onClick={[Function]}
+    >
+      Mostrar
+    </button>
+  </div>
+</Fragment>
+`;
